@@ -1,0 +1,59 @@
+digraph G {
+//rankdir=LR
+splines=true
+//splines=curved
+bgcolor=grey98
+pad=0.3
+style=filled
+edge[minlen=4]
+node[style=filled, fontcolor=white]
+ranksep=0.1
+nodesep=0.2
+
+// NIVEAU 1
+node[fillcolor=12, fontsize=18]
+a1[label=""]
+
+// NIVEAU 2
+node[fillcolor=red4, fontsize=16]
+a1->{
+b1[label=""]    
+b2[label=""]
+}[headport=n]
+
+node[fontcolor=black]
+// NIVEAU 3 (sans intermédiaire)
+node [shape=box, fillcolor=white, color=grey50]
+// c1[label=""]
+b1->c1
+c1[label=""]
+b2->c2
+c2[label=""]
+
+// INTERMÉDIAIRE AVANT NIVEAU 3
+node[fillcolor=grey78, shape=oval]
+// [arrowhead=none]
+// bc1[label=""]
+
+// NIVEAU 3 (avec intermédiaire)
+node[fillcolor=white, shape=box, color=grey50]
+// c1[label=""]
+
+// NIVEAU 4
+node[style=rounded, fillcolor=white, shape=box, color=grey50]
+// d1[label=""]
+
+// ÉTIQUETTES EN ROUGE
+node[shape=plaintext, fontcolor=firebrick3, fillcolor=grey98]
+// e1[label=< <B>= Titre</B><BR /><BR />Contenu<BR /> >]
+// e1[label=""]
+// ->e1[minlen=1, style=invis]
+
+// REMARQUES EN BLEU
+node[color=blue, shape=box, margin=0.07, fontcolor=black, fontsize=13]
+edge[color=blue, arrowhead="none", xlabel="", style=dashed]
+// r1[label=""]
+// {rank=same;->r1}
+// {rank=same;r1->[dir=back]}
+
+}
