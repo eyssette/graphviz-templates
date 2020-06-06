@@ -1,6 +1,6 @@
 # Modèles de schémas pour Graphviz
 
-Voici deux modèles à utiliser avec le logiciel de création de schémas [Graphviz](https://graphviz.gitlab.io/).
+Voici trois modèles à utiliser avec le logiciel de création de schémas [Graphviz](https://graphviz.gitlab.io/).
 
 Vous pouvez copier-coller la source dans l'un des logiciels en ligne ci-dessous, et faire vos propres schémas à partir de là.
 1. [Viz-js](http://viz-js.com/)
@@ -10,14 +10,14 @@ Le premier modèle permet de créer des schémas simples, destinés à visualise
 
 https://github.com/eyssette/graphviz-templates/blob/master/diagram.dot
 
-![](https://github.com/eyssette/graphviz-templates/blob/master/diagram.png?raw=true)
+![](https://raw.githubusercontent.com/eyssette/graphviz-templates/84db758d1931c92304de7376f054d043d7a6edb8/diagram.svg)
 
 
 Le deuxième modèle permet de représenter un raisonnement sous la forme d'un “schéma en arbre”.
 
 https://github.com/eyssette/graphviz-templates/blob/master/argument.dot
 
-![](https://github.com/eyssette/graphviz-templates/blob/master/argument.png?raw=true)
+![](https://raw.githubusercontent.com/eyssette/graphviz-templates/84db758d1931c92304de7376f054d043d7a6edb8/argument.svg)
 
 
 Le troisième modèle permet de synthétiser le contenu d'un article court, en représentant les grandes étapes et pour chaque étape les idées importantes.
