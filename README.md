@@ -18,3 +18,10 @@ Le deuxième modèle permet de représenter un raisonnement sous la forme d'un �
 https://github.com/eyssette/graphviz-templates/blob/master/argument.dot
 
 ![](https://github.com/eyssette/graphviz-templates/blob/master/argument.png?raw=true)
+
+
+Le troisième modèle permet de synthétiser le contenu d'un article court, en représentant les grandes étapes et pour chaque étape les idées importantes.
+
+https://github.com/eyssette/graphviz-templates/blob/master/summary.dot
+
+![](https://raw.githubusercontent.com/eyssette/graphviz-templates/c23d344472d50c91bd9e211281ccbcf5348fdc5c/summary.svg)
