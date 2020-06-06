@@ -21,6 +21,8 @@ h2[label="Hypothèse 2 :
 h3[label="Hypothèse 3 :
 ……………"]
 
+
+node[xlabel=""]
 c3[label="Confirmation :
 …………"]
 
@@ -53,6 +55,3 @@ h3->c3[tailport=s,headport=n,xlabel=""]
 
 }
 }
-
-
-
