@@ -29,9 +29,11 @@ https://github.com/eyssette/graphviz-templates/blob/master/argument.dot
 
 Le troisième modèle permet de synthétiser le contenu d'un article court, en représentant les grandes étapes et pour chaque étape les idées importantes.
 
-https://github.com/eyssette/graphviz-templates/blob/master/summary.dot
+https://github.com/eyssette/graphviz-templates/blob/master/summary-simple.dot
 
-![](https://raw.githubusercontent.com/eyssette/graphviz-templates/c23d344472d50c91bd9e211281ccbcf5348fdc5c/summary.svg)
+https://github.com/eyssette/graphviz-templates/blob/master/summary-complex.dot
+
+![](https://raw.githubusercontent.com/eyssette/graphviz-templates/6d3cba4129e34f2da5bd295033502f1896f00b3b/summary-simple.svg)
 
 
 ## Test d'hypothèses
