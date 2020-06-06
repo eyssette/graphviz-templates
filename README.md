@@ -1,6 +1,6 @@
 # Modèles de schémas pour Graphviz
 
-Voici trois modèles à utiliser avec le logiciel de création de schémas [Graphviz](https://graphviz.gitlab.io/).
+Voici quatre modèles à utiliser avec le logiciel de création de schémas [Graphviz](https://graphviz.gitlab.io/).
 
 Vous pouvez copier-coller la source dans l'un des logiciels en ligne ci-dessous, et faire vos propres schémas à partir de là.
 1. [Viz-js](http://viz-js.com/)
@@ -32,3 +32,12 @@ Le troisième modèle permet de synthétiser le contenu d'un article court, en r
 https://github.com/eyssette/graphviz-templates/blob/master/summary.dot
 
 ![](https://raw.githubusercontent.com/eyssette/graphviz-templates/c23d344472d50c91bd9e211281ccbcf5348fdc5c/summary.svg)
+
+
+## Test d'hypothèses
+
+Un quatrième modèle pour représenter une succession d'hypothèses et de réfutations jusqu'à une hypothèse finale.
+
+https://github.com/eyssette/graphviz-templates/blob/master/hypothesis-testing.dot
+
+![](https://raw.githubusercontent.com/eyssette/graphviz-templates/82a8cf06b792333978603d3cde7993fe7cd152ad/hypothesis-testing.svg)
