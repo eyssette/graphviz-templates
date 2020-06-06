@@ -1,0 +1,58 @@
+digraph G {
+
+splines=polyline
+ranksep=0.5
+
+node[shape=box,style="filled,rounded",fillcolor=white,penwidth=1.1,fontsize=18,margin=0.2]
+
+subgraph cluster_0 {
+style=filled
+color=grey40
+penwidth=0.5
+fillcolor=grey96
+margin=30
+
+
+node[color=green4,xlabel=<<font point-size="15">💬</font>>]
+h1[label="Hypothèse 1 :
+……………"]
+h2[label="Hypothèse 2 :
+……………"]
+h3[label="Hypothèse 3 :
+……………"]
+
+c3[label="Confirmation :
+…………"]
+
+
+node[color=red3,xlabel="⚡"]
+o1[label="Objection : "]
+o2[label="Objection : "]
+
+
+
+
+edge[penwidth=0.8,arrowsize=0.6]
+
+edge[color=red3,headport=w,style=invis]
+h1->o1
+h2->o2
+
+edge[color=green4,headport=e]
+o1->h2[minlen=2]
+o2->h3[minlen=2]
+h3->c3[minlen=2,tailport=s,headport=n]
+
+edge[color=red3,constraint=false,style=vis,headport=n,xlabel=<<font point-size="10" color="red3">objection !</font>>]
+h1->o1
+h2->o2
+
+edge[color=green4,constraint=false,style=vis,headport=n,xlabel=<<font point-size="11" color="green4">réponse</font>>]
+o1->h2[style=invis]
+h3->c3[tailport=s,headport=n,xlabel=""]
+
+}
+}
+
+
+
