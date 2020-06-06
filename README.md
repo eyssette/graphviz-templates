@@ -40,4 +40,4 @@ Un quatrième modèle pour représenter une succession d'hypothèses et de réfu
 
 https://github.com/eyssette/graphviz-templates/blob/master/hypothesis-testing.dot
 
-![](https://raw.githubusercontent.com/eyssette/graphviz-templates/82a8cf06b792333978603d3cde7993fe7cd152ad/hypothesis-testing.svg)
+![](https://raw.githubusercontent.com/eyssette/graphviz-templates/1535b0c20d0908478221877dcecfcdbc3565853e/hypothesis-testing.svg)
