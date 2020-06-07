@@ -7,27 +7,27 @@ Vous pouvez copier-coller la source dans l'un des logiciels en ligne ci-dessous,
 2. [GraphvizOnline](https://dreampuf.github.io/GraphvizOnline/)
 
 
-## Schémas simples (cartes mentales)
+## Schémas type “carte mentale”
 
-Le premier modèle permet de créer des schémas simples, destinés à visualiser des liens entre idées (type “carte mentale”).
+Le premier modèle permet de créer un schéma destiné à représenter des liens entre idées.
 
 https://github.com/eyssette/graphviz-templates/blob/master/diagram.dot
 
 ![](https://raw.githubusercontent.com/eyssette/graphviz-templates/84db758d1931c92304de7376f054d043d7a6edb8/diagram.svg)
 
 
-## Schéma en arbre d'un raisonnement
+## Schémas en arbre d'un raisonnement
 
-Le deuxième modèle permet de représenter un raisonnement sous la forme d'un “schéma en arbre”.
+Le deuxième modèle permet de représenter un raisonnement sous la forme d'un “schéma en arbre”. On peut également ajouter des objections ou des remarques pour préciser le sens d'une idée.
 
 https://github.com/eyssette/graphviz-templates/blob/master/argument.dot
 
 ![](https://raw.githubusercontent.com/eyssette/graphviz-templates/84db758d1931c92304de7376f054d043d7a6edb8/argument.svg)
 
 
-## Synthétiser les idées d'un article court
+## Synthèse des idées d'un article
 
-Le troisième modèle permet de synthétiser le contenu d'un article court, en représentant les grandes étapes et pour chaque étape les idées importantes.
+Le troisième modèle permet de synthétiser le contenu d'un article (ou d'un chapitre d'un livre), en représentant les grandes étapes et pour chaque étape les idées importantes.
 
 https://github.com/eyssette/graphviz-templates/blob/master/summary-simple.dot
 
@@ -36,7 +36,7 @@ https://github.com/eyssette/graphviz-templates/blob/master/summary-complex.dot
 ![](https://raw.githubusercontent.com/eyssette/graphviz-templates/6d3cba4129e34f2da5bd295033502f1896f00b3b/summary-simple.svg)
 
 
-## Conjectures et réfutations
+## Succession de conjectures et de réfutations
 
 Un quatrième modèle pour représenter une succession d'hypothèses et d'objections jusqu'à une hypothèse finale.
 
