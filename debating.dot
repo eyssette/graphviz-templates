@@ -1,0 +1,57 @@
+digraph G {
+// Template : debating
+splines=polyline
+ranksep=0.5
+
+//node[shape=circle,style=filled, fillcolor=white,penwidth=0.3]
+node[shape=box,style="filled,rounded", fillcolor=white,penwidth=1.1,fontsize=18,margin=0.2]
+
+subgraph cluster_0 {
+style="filled"
+color=grey40
+penwidth=0.5
+fillcolor=grey96
+margin=30
+
+
+node[color=green4,xlabel=<<font point-size="15">💬</font>>]
+a1[label="……"]
+a2[label="……"]
+a3[label="……"]
+a4[label="……"]
+
+node[color=red3,xlabel="⚡"]
+o1[label=""]
+o2[label=""]
+o3[label=""]
+
+edge[penwidth=0.8,arrowsize=0.6]
+
+edge[color=red3,headport=w,style=invis]
+a1->o1
+a2->o2
+a3->o3
+
+edge[color=green4,headport=e]
+o1->a2
+o2->a3
+o3->a4
+
+edge[color=red3,constraint=false,style=vis,headport=n,xlabel=<<font point-size="10" color="red3">objection !</font>>]
+a1->o1
+a2->o2
+a3->o3
+
+edge[color=green4,constraint=false,style=vis,headport=n,xlabel=<<font point-size="11" color="green4">réponse</font>>]
+o1->a2
+o2->a3
+o3->a4
+
+
+
+node[style="filled",fillcolor=white,color=grey70, margin=0.12,xlabel=""]
+a4->c1[constraint=true,color=black,xlabel="",tailport=s,headport=n,minlen=1,style=invis]
+c1[label="…………"]
+
+}
+}
