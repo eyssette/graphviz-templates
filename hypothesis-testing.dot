@@ -1,5 +1,6 @@
 digraph G {
-
+// Template : conjectures and refutations
+// Usage : 
 splines=polyline
 ranksep=0.5
 
