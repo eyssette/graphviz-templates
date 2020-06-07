@@ -1,4 +1,6 @@
 digraph G {
+// Template : diagram
+// Usage : 
 forcelabels=true
 bgcolor=white
 pad=0.3
