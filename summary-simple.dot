@@ -1,4 +1,6 @@
 digraph G {
+// Template : summary
+// Usage : 
 node[style="rounded,filled",shape=box,fillcolor=white,penwidth=0.4,margin=0.15]
 compound=true
 rankdir=LR
