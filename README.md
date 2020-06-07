@@ -36,7 +36,7 @@ https://github.com/eyssette/graphviz-templates/blob/master/summary-complex.dot
 ![](https://raw.githubusercontent.com/eyssette/graphviz-templates/6d3cba4129e34f2da5bd295033502f1896f00b3b/summary-simple.svg)
 
 
-## Test d'hypothèses
+## Conjectures et réfutations
 
 Un quatrième modèle pour représenter une succession d'hypothèses et de réfutations jusqu'à une hypothèse finale.
 
