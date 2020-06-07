@@ -40,6 +40,14 @@ https://github.com/eyssette/graphviz-templates/blob/master/summary-complex.dot
 
 Un quatrième modèle pour représenter une succession d'hypothèses et d'objections jusqu'à une hypothèse finale.
 
-https://github.com/eyssette/graphviz-templates/blob/master/hypothesis-testing.dot
+https://github.com/eyssette/graphviz-templates/blob/master/conjectures-and-refutations.dot
 
-![](https://raw.githubusercontent.com/eyssette/graphviz-templates/1535b0c20d0908478221877dcecfcdbc3565853e/hypothesis-testing.svg)
+![](https://raw.githubusercontent.com/eyssette/graphviz-templates/af9340874593d2055c18fb5b9ee1fd7cadec7b6c/conjectures-and-refutations.svg)
+
+## Débats
+
+Un cinquième modèle, proche du précédent, pour représenter un débat, avec une succession d'arguments, d'objections, de réponses aux objections, avec éventuellement une conclusion finale.
+
+https://github.com/eyssette/graphviz-templates/blob/master/debating.dot
+
+![](https://raw.githubusercontent.com/eyssette/graphviz-templates/af9340874593d2055c18fb5b9ee1fd7cadec7b6c/debating.svg)
