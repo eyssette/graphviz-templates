@@ -38,7 +38,7 @@ https://github.com/eyssette/graphviz-templates/blob/master/summary-complex.dot
 
 ## Conjectures et réfutations
 
-Un quatrième modèle pour représenter une succession d'hypothèses et de réfutations jusqu'à une hypothèse finale.
+Un quatrième modèle pour représenter une succession d'hypothèses et d'objections jusqu'à une hypothèse finale.
 
 https://github.com/eyssette/graphviz-templates/blob/master/hypothesis-testing.dot
 
