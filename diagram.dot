@@ -42,7 +42,7 @@ node[fillcolor=white, shape=box, color=grey50]
 // c1[label=""]
 
 // NIVEAU 4
-node[style=rounded, fillcolor=white, shape=box, color=grey50]
+node[style="filled,rounded", fillcolor=white, shape=box, color=grey50]
 // d1[label=""]
 
 // ÉTIQUETTES EN ROUGE
