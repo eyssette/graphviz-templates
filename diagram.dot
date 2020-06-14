@@ -52,8 +52,8 @@ node[shape=plaintext, fontcolor=firebrick3, fillcolor=grey98]
 // ->e1[minlen=1, style=invis]
 
 // REMARQUES EN BLEU
-node[color=blue, shape=box, margin=0.07, fontcolor=black, fontsize=13]
-edge[color=blue, arrowhead="none", xlabel="", style=dashed]
+node[color=blue, shape=box, margin=0.07, fontcolor=black, fontsize=12, style="dashed", penwidth=0.6]
+edge[color=blue, arrowhead="none", xlabel="", style="dashed", penwidth=0.6]
 // r1[label=""]
 // {rank=same;->r1}
 // {rank=same;r1->[dir=back]}
