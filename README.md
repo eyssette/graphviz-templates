@@ -6,6 +6,10 @@ Vous pouvez copier-coller la source dans l'un des logiciels en ligne ci-dessous,
 1. [Viz-js](http://viz-js.com/)
 2. [GraphvizOnline](https://dreampuf.github.io/GraphvizOnline/)
 
+J'ai mis des exemples de schémas créés avec des modèles ici : 
+
+https://github.com/eyssette/graphviz-examples
+
 
 ## Schémas type “carte mentale”
 
