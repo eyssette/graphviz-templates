@@ -3,14 +3,14 @@ splines=true
 newrank=true
 
 
-node[color=red4, style="rounded, filled, dashed", shape="box", fillcolor=white, fontsize=8, penwidth=0.7]
+node[color=red3, style="rounded, filled", shape="circle", fillcolor=red3, penwidth=0.5, fontcolor=white, margin=0, size=1]
 o1[label="o1"]
 o2[label="o2"]
 o3[label="o3"]
 o4[label="o4"]
 
-node[shape=box, fillcolor=white, style="filled,rounded", color=black, fontsize=12, penwidth=1]
-edge[minlen=2,fontsize=10,fontcolor=red4,color=red4, style="dashed", penwidth=0.7, arrowsize=0.5]
+node[shape=box, fillcolor=white, style="filled,rounded", color=black, fontsize=24, penwidth=1,fontcolor=black, margin=0.1]
+edge[minlen=2,color=red3, penwidth=0.8, arrowsize=0.8]
 o1->p12:nw
 o2->p45:p4:w
 o3->p45:p5:e
@@ -25,9 +25,9 @@ margin=20
 
 
 
-node[shape=box, fillcolor=white, style="filled,rounded, solid", color=black]
+node[shape=box, fillcolor=white, style="filled,rounded", color=black]
 edge[xlabel="par
-conséquent … ",fontcolor=grey40;fontsize=10,minlen=2,color=black, style="solid",penwidth=1, arrowsize=1]
+conséquent … ",fontcolor=grey40;fontsize=10,minlen=2,color=black,penwidth=1, arrowsize=1]
 
 
 
@@ -61,14 +61,22 @@ et le monde physique",fillcolor=black, fontcolor=white, color=black, shape=ellip
 
 }
 
-{rank=same;p12->a1[style=invis,minlen=18]}
+node[color=red3, style="rounded, filled", shape="circle", fillcolor=red3, penwidth=0.5, fontcolor=white, margin=0, size=1,fontsize=14]
+C->{obj1,obj2}[style=invis,minlen=2]
 
 subgraph cluster_1 {
-    color=white
-    node[shape=box]
-a1[label="Objections possibles : 
-– Objection contre (1) :
-– Objection contre (2)"]
+fontsize=24
+label="\nLes objections contre cet argument :\n\n"
+color=white
+obj1[label="o1"]
+obj2[label="o2"]
+node[shape=box, fillcolor=white, style="filled,rounded", color=black, penwidth=1, fontcolor=black, margin=0.1, fontsize=18]
+edge[arrowhead=none,penwidth=1]
+{rank=same;obj1->obj1expl}
+obj1expl[label="Objection contre (1) et
+contre (2) : ce qui est
+concevable est-il
+réellement possible ? "]
 }
 
 
