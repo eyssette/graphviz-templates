@@ -62,22 +62,6 @@ et le monde physique",fillcolor=black, fontcolor=white, color=black, shape=ellip
 }
 
 node[color=red3, style="rounded, filled", shape="circle", fillcolor=red3, penwidth=0.5, fontcolor=white, margin=0, size=1,fontsize=14]
-C->{obj1,obj2}[style=invis,minlen=2]
-
-subgraph cluster_1 {
-fontsize=24
-label="\nLes objections contre cet argument :\n\n"
-color=white
-obj1[label="o1"]
-obj2[label="o2"]
-node[shape=box, fillcolor=white, style="filled,rounded", color=black, penwidth=1, fontcolor=black, margin=0.1, fontsize=18]
-edge[arrowhead=none,penwidth=1]
-{rank=same;obj1->obj1expl}
-obj1expl[label="Objection contre (1) et
-contre (2) : ce qui est
-concevable est-il
-réellement possible ? "]
-}
 
 
 }
