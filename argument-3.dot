@@ -1,0 +1,73 @@
+digraph G {
+splines=true
+newrank=true
+compound=true
+
+
+node[color=red3, style="rounded, filled", shape="circle", fillcolor=white, penwidth=1, fontcolor=red4, margin=0, size=1]
+// o1[label="o1"]
+
+node[shape=box, fillcolor=white, style="filled,rounded", color=black, fontsize=24, penwidth=1,fontcolor=black, margin=0.1]
+edge[minlen=2,color=red3, penwidth=0.8, arrowsize=0.8]
+// o1->p12:nw
+
+
+subgraph cluster_0 {
+bgcolor=grey90
+style=rounded
+color=grey50
+margin=40
+
+
+
+node[shape=box, fillcolor=white, style="filled,rounded", color=black]
+edge[xlabel="",fontcolor=grey40;fontsize=10,minlen=3,color=black,penwidth=1, arrowsize=1]
+
+
+
+subgraph cluster_1 {
+style="box"
+margin=15
+bgcolor=grey70
+color=grey70
+p1[label="(1) Si quelque chose existe,
+il existe une cause qui
+explique son existence"]
+
+p2[label="(2) Le monde
+existe"]
+}
+
+{rank=same;p1->p2[style=invis,xlabel="",minlen=2]}
+
+
+subgraph cluster_2 {
+style="box"
+margin=15
+bgcolor=grey70
+color=grey70
+p1:e->p3:n[ltail=cluster_1]
+p3[label="(3) Il existe une
+cause qui explique
+l'existence du monde"]
+
+
+p4[label="(4) Seul Dieu peut
+être une cause "]
+}
+{rank=same;p3->p4[style=invis,minlen=2]}
+
+p3:e->C[ltail=cluster_2]
+
+vide1[style=invis]
+{rank=same;vide1->p3[style=invis,minlen=6]}
+
+C[label="Dieu existe",fillcolor=black, fontcolor=white, color=black, shape=ellipse]
+   
+
+
+}
+
+
+
+}
