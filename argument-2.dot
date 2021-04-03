@@ -1,0 +1,75 @@
+digraph G {
+splines=true
+newrank=true
+
+
+node[color=red4, style="rounded, filled, dashed", shape="box", fillcolor=white, fontsize=8, penwidth=0.7]
+o1[label="o1"]
+o2[label="o2"]
+o3[label="o3"]
+o4[label="o4"]
+
+node[shape=box, fillcolor=white, style="filled,rounded", color=black, fontsize=12, penwidth=1]
+edge[minlen=2,fontsize=10,fontcolor=red4,color=red4, style="dashed", penwidth=0.7, arrowsize=0.5]
+o1->p12:nw
+o2->p45:p4:w
+o3->p45:p5:e
+{rank=same;o4->p3}
+o1->o4[style=invis]
+
+subgraph cluster_0 {
+bgcolor=grey90
+style=rounded
+color=grey50
+margin=20
+
+
+
+node[shape=box, fillcolor=white, style="filled,rounded, solid", color=black]
+edge[xlabel="par
+conséquent … ",fontcolor=grey40;fontsize=10,minlen=2,color=black, style="solid",penwidth=1, arrowsize=1]
+
+
+
+p12[shape="record" label="{<p1> (1) Il est possible de\n concevoir l'esprit sans\n le monde physique
+|<p2> (2)  Il est possible de\n concevoir le monde \n physique sans l'esprit}"];
+p12 -> p3
+p3 [label="(3) L'esprit et le
+monde physique sont
+concevables séparément", shape="box"];
+
+
+
+p45 -> p6
+p45[shape="record" label="{<p4> (4) Les états mentaux ne\n sont pas localisables dans\n l'espace et pas divisibles
+|<p5> (5)  Les états physiques\nsont localisables dans\nl'espace et divisibles}"];
+
+
+{rank=same;p3->p6[style=invis]}
+
+p6 [label="(6) L'esprit et le monde
+physique se caractérisent
+par des propriétés opposées", shape="box"];
+   
+{p3,p6}->C
+
+C[label="Il y a une distinction
+radicale entre l'esprit
+et le monde physique",fillcolor=black, fontcolor=white, color=black, shape=ellipse]
+   
+
+
+}
+
+{rank=same;p12->a1[style=invis,minlen=18]}
+
+subgraph cluster_1 {
+    color=white
+    node[shape=box]
+a1[label="Objections possibles : 
+– Objection contre (1) :
+– Objection contre (2)"]
+}
+
+
+}
