@@ -8,7 +8,7 @@ node[color=red3, style="rounded, filled", shape="circle", fillcolor=red3, penwid
 o1[label="o1"]
 
 node[shape=box, fillcolor=white, style="filled,rounded", color=black, fontsize=24, penwidth=1,fontcolor=black, margin=0.1]
-edge[minlen=3,color=red3, penwidth=0.8, arrowsize=0.8, label="Objection !", fontcolor=red4,fontsize=10]
+edge[minlen=2,color=red3, penwidth=0.8, arrowsize=0.8, label="Objection !", fontcolor=red4,fontsize=10]
 {rank=same;o1->p1[dir=back]}
 
 
