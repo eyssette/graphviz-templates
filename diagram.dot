@@ -13,7 +13,7 @@ ranksep=0.1
 nodesep=0.2
 
 // NIVEAU 1
-node[fillcolor=12, fontsize=18]
+node[fillcolor=grey12, fontsize=18]
 a1[label=""]
 
 // NIVEAU 2
