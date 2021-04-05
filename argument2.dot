@@ -4,13 +4,13 @@ newrank=true
 compound=true
 
 
-node[color=red3, style="rounded, filled", shape="box", fillcolor=white, penwidth=1, fontcolor=black, fontsize=18, margin=0.1]
-// o1[label="o1"]
-// o1
+node[color=red3, style="rounded, filled", shape="box", fillcolor=white, penwidth=1, fontcolor=black, fontsize=16, margin=0.1]
+o1[label="Objection contre
+cette prémisse"]
 
 node[shape=box, fillcolor=white, style="filled,rounded", color=black, fontsize=24, penwidth=1,fontcolor=black, margin=0.1]
 edge[minlen=2,color=red3, penwidth=0.8, arrowsize=0.8, label="Objection !", fontcolor=red4,fontsize=10]
-// {rank=same;o1->p1[dir=back]}
+{rank=same;o1->p1[dir=back]}
 
 
 subgraph cluster_0 {
@@ -38,8 +38,10 @@ p2[label="(2) Prémisse B"]
 }
 
 p1->p2[style=invis,xlabel="",minlen=1]
+//{rank=same;p1->p2[style=invis,xlabel="",minlen=1]}
 
 p2:s->p3:n[ltail=cluster_1]
+//p2:w->p3:n[ltail=cluster_1]
 p3[label="(3) Lemme 1"]
 
 {rank=same;p3->p4[style=invis]}
@@ -54,8 +56,9 @@ C[label="Conclusion",fillcolor=black, fontcolor=white, color=black, shape=ellips
 
 }
 
-node[color=red3, style="rounded, filled", shape="box", fillcolor=white, penwidth=1, fontcolor=black, fontsize=18, margin=0.1]
-// o3
-//{rank=same;p4->o3}
+node[color=red3, style="rounded, filled", shape="box", fillcolor=white, penwidth=1, fontcolor=black, fontsize=16, margin=0.1]
+o2[label="Objection contre
+cette prémisse"]
+{rank=same;p4->o2}
 
 }
