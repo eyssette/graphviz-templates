@@ -1,67 +1,62 @@
 digraph G {
 splines=true
 newrank=true
+compound=true
 
 
 node[color=red3, style="rounded, filled", shape="circle", fillcolor=red3, penwidth=0.5, fontcolor=white, margin=0, size=1]
 o1[label="o1"]
-o2[label="o2"]
-o3[label="o3"]
-o4[label="o4"]
 
 node[shape=box, fillcolor=white, style="filled,rounded", color=black, fontsize=24, penwidth=1,fontcolor=black, margin=0.1]
-edge[minlen=2,color=red3, penwidth=0.8, arrowsize=0.8]
-o1->p12:nw
-o2->p45:p4:w
-o3->p45:p5:e
-{rank=same;o4->p3}
-o1->o4[style=invis]
+edge[minlen=3,color=red3, penwidth=0.8, arrowsize=0.8, label="Objection !", fontcolor=red4,fontsize=10]
+{rank=same;o1->p1[dir=back]}
+
 
 subgraph cluster_0 {
 bgcolor=grey90
 style=rounded
 color=grey50
-margin=20
+margin=40
 
 
 
 node[shape=box, fillcolor=white, style="filled,rounded", color=black]
-edge[xlabel="par
-conséquent … ",fontcolor=grey40;fontsize=10,minlen=2,color=black,penwidth=1, arrowsize=1]
+edge[label="",xlabel="Par
+conséquent …",fontcolor=grey40;fontsize=15,minlen=3,color=black,penwidth=1, arrowsize=1]
 
 
 
-p12[shape="record" label="{<p1> (1) Il est possible de\n concevoir l'esprit sans\n le monde physique
-|<p2> (2)  Il est possible de\n concevoir le monde \n physique sans l'esprit}"];
-p12 -> p3
-p3 [label="(3) L'esprit et le
-monde physique sont
-concevables séparément", shape="box"];
+subgraph cluster_1 {
+style="box"
+margin=15
+bgcolor=grey73
+color=grey73
+p1[label="(1) Prémisse A"]
+
+p2[label="(2) Prémisse B"]
+}
+
+p1->p2[style=invis,xlabel="",minlen=1]
+//{rank=same;p1->p2[style=invis,xlabel="",minlen=1]}
+
+p2:s->p3:n[ltail=cluster_1]
+//p2:w->p3:n[ltail=cluster_1]
+p3[label="(3) Lemme 1"]
+
+{rank=same;p3->p4[style=invis]}
+
+p4[label="(4) Prémisse 3"]
+
+{p3,p4}->C
 
 
-
-p45 -> p6
-p45[shape="record" label="{<p4> (4) Les états mentaux ne\n sont pas localisables dans\n l'espace et pas divisibles
-|<p5> (5)  Les états physiques\nsont localisables dans\nl'espace et divisibles}"];
-
-
-{rank=same;p3->p6[style=invis]}
-
-p6 [label="(6) L'esprit et le monde
-physique se caractérisent
-par des propriétés opposées", shape="box"];
-   
-{p3,p6}->C
-
-C[label="Il y a une distinction
-radicale entre l'esprit
-et le monde physique",fillcolor=black, fontcolor=white, color=black, shape=ellipse]
-   
+C[label="Conclusion",fillcolor=black, fontcolor=white, color=black, shape=ellipse]
 
 
 }
 
 node[color=red3, style="rounded, filled", shape="circle", fillcolor=red3, penwidth=0.5, fontcolor=white, margin=0, size=1,fontsize=14]
-
+o2[label="o2"]
+{rank=same;p4->o2}
 
 }
