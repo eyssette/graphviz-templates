@@ -35,7 +35,7 @@
 <title>o1&#45;&gt;p1</title>
 <path fill="none" stroke="#cd0000" stroke-width=".8" d="M129.6465,-497.9283C156.9689,-497.9283 188.5394,-497.9283 216.8197,-497.9283"/>
 <polygon fill="#cd0000" stroke="#cd0000" stroke-width=".8" points="129.3119,-495.1284 121.3119,-497.9283 129.3118,-500.7284 129.3119,-495.1284"/>
-<text text-anchor="middle" x="168.9032" y="-503.9283" font-family="Times,serif" font-size="10.00" fill="#8b0000">Objection !</text>
+<text text-anchor="middle" x="168.9032" y="-504.5283" font-family="Times,serif" font-size="12.00" fill="#8b0000"> Mais …</text>
 </g>
 <!-- p2 -->
 <g id="node3" class="node">
@@ -99,7 +99,7 @@
 <title>p4&#45;&gt;o2</title>
 <path fill="none" stroke="#cd0000" stroke-width=".8" d="M602.7014,-247.7283C626.1552,-247.7283 651.7645,-247.7283 674.6366,-247.7283"/>
 <polygon fill="#cd0000" stroke="#cd0000" stroke-width=".8" points="674.9302,-250.5284 682.9302,-247.7283 674.9302,-244.9284 674.9302,-250.5284"/>
-<text text-anchor="middle" x="642.8374" y="-253.7283" font-family="Times,serif" font-size="10.00" fill="#8b0000">Objection !</text>
+<text text-anchor="middle" x="642.8374" y="-254.3283" font-family="Times,serif" font-size="12.00" fill="#8b0000"> Mais …</text>
 </g>
 </g>
 </svg>

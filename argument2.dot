@@ -9,7 +9,7 @@ o1[label="Objection contre
 cette prémisse"]
 
 node[shape=box, fillcolor=white, style="filled,rounded", color=black, fontsize=24, penwidth=1,fontcolor=black, margin=0.1]
-edge[minlen=2,color=red3, penwidth=0.8, arrowsize=0.8, label="Objection !", fontcolor=red4,fontsize=10]
+edge[minlen=2,color=red3, penwidth=0.8, arrowsize=0.8, label=" Mais …", fontcolor=red4,fontsize=12]
 {rank=same;o1->p1[dir=back]}
 
 
